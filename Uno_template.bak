@@ -273,6 +273,6 @@ F 3 "" H 8900 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8900 1050 8900 1150
-Text Notes 7600 6950 0    197  ~ 0
+Text Notes 7450 6950 0    197  ~ 0
 Heizungssteuerung
 $EndSCHEMATC

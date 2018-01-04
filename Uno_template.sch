@@ -143,39 +143,6 @@ F 3 "" H 8300 1650 50  0001 C CNN
 	1    8300 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7550 1050 8150 1050
-Wire Wire Line
-	7550 1150 8150 1150
-Wire Wire Line
-	7550 1250 8300 1250
-Wire Wire Line
-	7550 1350 8450 1350
-Wire Wire Line
-	7550 1450 8300 1450
-Wire Wire Line
-	7550 1550 8300 1550
-Wire Wire Line
-	7550 1650 8150 1650
-Wire Wire Line
-	8300 1250 8300 1150
-Wire Wire Line
-	8450 1350 8450 1250
-Wire Wire Line
-	8300 1450 8300 1650
-Connection ~ 8300 1550
-Wire Wire Line
-	7550 2150 8150 2150
-Wire Wire Line
-	7550 2250 8150 2250
-Wire Wire Line
-	7550 2350 8150 2350
-Wire Wire Line
-	7550 2450 8150 2450
-Wire Wire Line
-	7550 2550 8150 2550
-Wire Wire Line
-	7550 2650 8150 2650
 Text Label 8150 2150 2    60   ~ 0
 A0
 Text Label 8150 2250 2    60   ~ 0
@@ -188,42 +155,6 @@ Text Label 8150 2550 2    60   ~ 0
 A4
 Text Label 8150 2650 2    60   ~ 0
 A5
-Wire Wire Line
-	9050 1550 9650 1550
-Wire Wire Line
-	9650 1650 9050 1650
-Wire Wire Line
-	9650 1450 9050 1450
-Wire Wire Line
-	9650 1350 9050 1350
-Wire Wire Line
-	9650 1250 9050 1250
-Wire Wire Line
-	9650 1150 9050 1150
-Wire Wire Line
-	8900 1050 9650 1050
-Wire Wire Line
-	9650 950  9050 950 
-Wire Wire Line
-	9650 850  9050 850 
-Wire Wire Line
-	9650 750  9050 750 
-Wire Wire Line
-	9650 1950 9050 1950
-Wire Wire Line
-	9650 2050 9050 2050
-Wire Wire Line
-	9650 2150 9050 2150
-Wire Wire Line
-	9650 2250 9050 2250
-Wire Wire Line
-	9650 2350 9050 2350
-Wire Wire Line
-	9650 2450 9050 2450
-Wire Wire Line
-	9650 2550 9050 2550
-Wire Wire Line
-	9650 2650 9050 2650
 Text Label 9050 750  0    60   ~ 0
 A5
 Text Label 9050 850  0    60   ~ 0
@@ -271,8 +202,121 @@ F 3 "" H 8900 1150 50  0001 C CNN
 	1    8900 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 1050 8900 1150
 Text Notes 7450 6950 0    197  ~ 0
 Heizungssteuerung
+$Comp
+L Conn_01x03 J?
+U 1 1 5A4DF07A
+P 9850 3650
+F 0 "J?" H 9850 3850 50  0000 C CNN
+F 1 "1Wire" H 9850 3450 50  0000 C CNN
+F 2 "" H 9850 3650 50  0001 C CNN
+F 3 "" H 9850 3650 50  0001 C CNN
+	1    9850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A4DF0E4
+P 9200 3450
+F 0 "R?" V 9280 3450 50  0000 C CNN
+F 1 "R" V 9200 3450 50  0000 C CNN
+F 2 "" V 9130 3450 50  0001 C CNN
+F 3 "" H 9200 3450 50  0001 C CNN
+	1    9200 3450
+	1    0    0    -1  
+$EndComp
+Text Label 8900 3750 0    60   ~ 0
+GND
+Text Label 8900 3650 0    60   ~ 0
+IO8
+Text Label 8900 3200 0    60   ~ 0
+5V
+Wire Wire Line
+	7550 1050 8150 1050
+Wire Wire Line
+	7550 1150 8150 1150
+Wire Wire Line
+	7550 1250 8300 1250
+Wire Wire Line
+	7550 1350 8450 1350
+Wire Wire Line
+	7550 1450 8300 1450
+Wire Wire Line
+	7550 1550 8300 1550
+Wire Wire Line
+	7550 1650 8150 1650
+Wire Wire Line
+	8300 1250 8300 1150
+Wire Wire Line
+	8450 1350 8450 1250
+Wire Wire Line
+	8300 1450 8300 1650
+Connection ~ 8300 1550
+Wire Wire Line
+	7550 2150 8150 2150
+Wire Wire Line
+	7550 2250 8150 2250
+Wire Wire Line
+	7550 2350 8150 2350
+Wire Wire Line
+	7550 2450 8150 2450
+Wire Wire Line
+	7550 2550 8150 2550
+Wire Wire Line
+	7550 2650 8150 2650
+Wire Wire Line
+	9050 1550 9650 1550
+Wire Wire Line
+	9650 1650 9050 1650
+Wire Wire Line
+	9650 1450 9050 1450
+Wire Wire Line
+	9650 1350 9050 1350
+Wire Wire Line
+	9650 1250 9050 1250
+Wire Wire Line
+	9650 1150 9050 1150
+Wire Wire Line
+	8900 1050 9650 1050
+Wire Wire Line
+	9650 950  9050 950 
+Wire Wire Line
+	9650 850  9050 850 
+Wire Wire Line
+	9650 750  9050 750 
+Wire Wire Line
+	9650 1950 9050 1950
+Wire Wire Line
+	9650 2050 9050 2050
+Wire Wire Line
+	9650 2150 9050 2150
+Wire Wire Line
+	9650 2250 9050 2250
+Wire Wire Line
+	9650 2350 9050 2350
+Wire Wire Line
+	9650 2450 9050 2450
+Wire Wire Line
+	9650 2550 9050 2550
+Wire Wire Line
+	9650 2650 9050 2650
+Wire Wire Line
+	8900 1050 8900 1150
+Wire Wire Line
+	8900 3200 9650 3200
+Wire Wire Line
+	9200 3200 9200 3300
+Wire Wire Line
+	9200 3600 9200 3650
+Wire Wire Line
+	8900 3650 9650 3650
+Wire Wire Line
+	9650 3200 9650 3550
+Connection ~ 9200 3200
+Connection ~ 9200 3650
+Wire Wire Line
+	9650 3750 8900 3750
+Text Notes 10050 3750 0    60   ~ 0
+1 = 5V\n2 = DATA\n3 = GND
 $EndSCHEMATC
